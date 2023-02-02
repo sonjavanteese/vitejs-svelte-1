@@ -30,6 +30,8 @@
     --bg: #ffffff;
     --bgs: #f4f4f4;
     --bg-btn: #e2e2e2; 
+    --appbar-hight: 56px;
+
     width: 100%;
     position: sticky;
     top: 0;
@@ -44,13 +46,12 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      min-height: var(--appbar-hight, 56px);
+      min-height: var(--appbar-hight);
       button {
         display: inline-flex;
         align-items: center;
         justify-content: space-around;
-        min-height: var(--appbar-hight, 56px);
-        background-color: var(--bg-btns);
+        min-height: var(--appbar-hight);
         color: var(--color);
         padding: 0.2rem 1rem;
         border-radius: 0;
@@ -59,9 +60,11 @@
         transition: color 0.25s;
         &:hover {
           opacity: 0.7;
+          background-color: var(--bg-btn);
         }
         &:active,
         &.active {
+          background-color: var(--bg-btn);
           opacity: 0.8;
           color: var(--color-act);
         }
