@@ -9,26 +9,60 @@ export let test = false
 <Page {test} {active}>
 
 <div class="container">
-    <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-            <img src="/vite.svg" class="logo" alt="Vite Logo" />
-        </a>
-        <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-            <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-        </a>
+<h1>Page 1</h1>
+<hr>
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Free</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 users included</li>
+              <li>2 GB of storage</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>20 users included</li>
+              <li>10 GB of storage</li>
+              <li>Priority email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Enterprise</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>30 users included</li>
+              <li>15 GB of storage</li>
+              <li>Phone and email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <h1>Page 1</h1>
-        <hr>
-    <div class="card">
-        <Counter />
-    </div>
-    <p> Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite! </p>
-    <p class="read-the-docs"> Click on the Vite and Svelte logos to learn more </p>
-    <details>
-        <summary> Show More</summary>
-        <p> Godfather ipsum dolor sit amet. Why do you hurt me, Michael? I've always been loyal to you. I'm your older brother, Mike, and I was stepped over! I don't feel I have to wipe everybody out, Tom. Just my enemies. Your enemies always get strong on what you leave behind. </p>
-        <p> Do me this favor. I won't forget it. Ask your friends in the neighborhood about me. They'll tell you I know how to return a favor. I don't trust a doctor who can hardly speak English. I have a sentimental weakness for my children and I spoil them, as you can see. They talk when they should listen. Fredo, you're my older brother, and I love you. But don't ever take sides with anyone against the Family again. Ever. Don't you know that I would use all of my power to prevent something like that from happening? </p>
-        <p> Only don't tell me you're innocent. Because it insults my intelligence and makes me very angry. Michael, you never told me you knew Johnny Fontane! Te salut, Don Corleone. Don't ever give an order like that again. Not while I'm alive. Leave the gun. Take the cannoli. </p>
-    </details>
 </div>
 </Page>

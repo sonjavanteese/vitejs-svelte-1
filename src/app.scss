@@ -52,14 +52,7 @@ h1 {
     }
   }
 }
-@keyframes animation1 {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
+
 button {
   border-radius: 8px;
   border: 1px solid #f6f6f6;
@@ -81,3 +74,13 @@ button {
   margin-right: auto;
   margin-left: auto;
 }
+@keyframes animation1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@import 'util';
