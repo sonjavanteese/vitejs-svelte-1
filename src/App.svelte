@@ -8,8 +8,8 @@ let act1 = false
 const toggle = () => { act1 = !act1 }
 </script>
 
-
 <AppBar {toggle} />
+
 <main>
   <P1 active={true}></P1>
   <P2 bind:active={act1} test></P2>
