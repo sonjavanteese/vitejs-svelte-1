@@ -25,6 +25,16 @@
 
 
 <style lang="scss">
+  button {
+    border: 1px solid #f6f6f6;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
   .app-bar {
     --color: #565c64;
     --color-act: #0369a1;
