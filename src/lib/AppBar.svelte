@@ -1,25 +1,20 @@
 <script>
-const icon1 = ``;
-
-
+  export let label = "nwp-app"
 </script>
 
 
-
-
 <header class="app-bar">
-
   <nav>
     <div class="brand">
-    Header
+    {label}
     </div>
     <aside>
       <button>
       <span>
       Button 
       </span>
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24"><title>start</title>
-      <path d="M16.641 1.688l5.672 5.672-5.672 5.625h4.359v8.016h-8.016v-8.016h3.656l-5.625-5.625v3.656h-8.016v-8.016h8.016v4.359zM3 21v-8.016h8.016v8.016h-8.016z"></path></svg>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24"><title>start</title>
+        <path d="M16.641 1.688l5.672 5.672-5.672 5.625h4.359v8.016h-8.016v-8.016h3.656l-5.625-5.625v3.656h-8.016v-8.016h8.016v4.359zM3 21v-8.016h8.016v8.016h-8.016z"></path></svg>
       </button>
     </aside>
   </nav>
@@ -35,7 +30,6 @@ const icon1 = ``;
     --bg: #ffffff;
     --bgs: #f4f4f4;
     --bg-btn: #e2e2e2; 
-
     width: 100%;
     position: sticky;
     top: 0;
