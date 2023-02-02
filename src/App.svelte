@@ -11,11 +11,8 @@ const toggle = () => { act1 = !act1 }
 
 <AppBar {toggle} />
 <main>
-{#if act1}
-<P2></P2>
-{:else}
-<P1></P1>
-{/if}
+  <P1 active={true}></P1>
+  <P2 bind:active={act1} test></P2>
 </main>
 
 <style>

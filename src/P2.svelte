@@ -2,9 +2,11 @@
 import svelteLogo from './assets/svelte.svg'
 import Counter from './lib/Counter.svelte'
 import Page from './lib/Page.svelte'
+export let active = false
+export let test = false
 </script>
 
-<Page>
+<Page {test} {active}>
 
 <div class="container">
     <div>
